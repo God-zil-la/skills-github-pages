@@ -1,16 +1,13 @@
 <header>
+  <!--
+    <<< Author notes: Course header >>>
+    Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
+    In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
+    Add your open source license, GitHub uses MIT license.
+  -->
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
+  <h1>GitHub Pages</h1>
+  <p><em>Create a website or blog directly from your GitHub repositories with GitHub Pages.</em></p>
 </header>
 
 <!--
@@ -18,40 +15,39 @@ _Create a site or blog from your GitHub repositories with GitHub Pages._
   Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Finish
+<section>
+  <h2>Finish</h2>
+  <p><strong>Congratulations! 🎉</strong> You've completed the course and your blog is now live and deployed!</p>
 
-_Congratulations friend, you've completed this course!_
+  <img src="https://octodex.github.com/images/constructocat2.jpg" alt="Celebrate" width="300" style="float:right; margin-left:20px;">
 
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
+  <p>Here’s a quick recap of everything you’ve accomplished:</p>
+  <ul>
+    <li>Enabled GitHub Pages for your repository.</li>
+    <li>Selected a theme using the configuration file (_config.yml).</li>
+    <li>Learned about Jekyll's directory structure and file naming conventions.</li>
+    <li>Created your first blog post with Jekyll!</li>
+  </ul>
 
-Your blog is now live and has been deployed!
-
-Here's a recap of all the tasks you've accomplished in your repository:
-
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
-
-### What's next?
-
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+  <h3>What’s Next?</h3>
+  <p>Now that your site is up and running, here are some next steps you can take:</p>
+  <ul>
+    <li><strong>Keep working on your GitHub Pages site:</strong> Add more posts, customize your theme, or explore new features!</li>
+    <li><strong>Share your thoughts:</strong> We’d love to hear your feedback on this course! Join the discussion on our <a href="https://github.com/orgs/skills/discussions/categories/github-pages" target="_blank">discussion board</a>.</li>
+    <li><strong>Take another GitHub Skills course:</strong> Dive deeper into GitHub workflows, pull requests, and more! <a href="https://github.com/skills" target="_blank">Explore more courses here.</a></li>
+    <li><strong>Explore GitHub:</strong> Discover other exciting projects, ideas, and open-source contributions on <a href="https://github.com/explore" target="_blank">GitHub Explore.</a></li>
+    <li><strong>Need help?</strong> If you encounter any issues, check out the <a href="https://docs.github.com/en/get-started" target="_blank">GitHub Getting Started docs.</a></li>
+  </ul>
+</section>
 
 <footer>
+  <!--
+    <<< Author notes: Footer >>>
+    Add a link to get support, GitHub status page, code of conduct, license link.
+  -->
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+  <hr>
+  <p><strong>Get help:</strong> <a href="https://github.com/orgs/skills/discussions/categories/github-pages" target="_blank">Post in our discussion board</a> &bull; <a href="https://www.githubstatus.com/" target="_blank">Check the GitHub status page</a></p>
 
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+  <p>&copy; 2023 GitHub &bull; <a href="https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md" target="_blank">Code of Conduct</a> &bull; <a href="https://gh.io/mit" target="_blank">MIT License</a></p>
 </footer>
