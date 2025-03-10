@@ -30,7 +30,7 @@ jobs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
   on_enable_github_pages:
-    name: On enable github pages
+    name: On enable GitHub Pages
     needs: get_current_step
 
     # We will only run this action when:
@@ -40,17 +40,17 @@ jobs:
     # Reference: https://docs.github.com/en/actions/learn-github-actions/expressions
     if: >-
       ${{ !github.event.repository.is_template
-          && needs.get_current_step.outputs.current_step == 1 }}
+          && needs.get_current_step.outputs.current_step == '1' }}
     # We'll run Ubuntu for performance instead of Mac or Windows.
     runs-on: ubuntu-latest
 
     steps:
-      # We'll need to check out the repository so that we can edit the README.
+      # Check out the repository to ensure we have access to the latest changes.
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Let's get all the branches.
-          ref: my-pages
+          fetch-depth: 0 # Get full history for all branches
+          ref: main  # Use the 'main' branch here
 
       # In README.md, switch step 1 for step 2.
       - name: Update to step 2
@@ -59,4 +59,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 1
           to_step: 2
-          branch_name: my-pages
+          branch_name: main  # Use the 'main' branch here
